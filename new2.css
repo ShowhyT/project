@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;400;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+
+body{
+    margin: 0px 20px;
+}
+section{
+    margin: 20px 0px;
+}
+header{
+    text-align: center;
+    font-size: 45px;
+    background: #B57DFD;
+    border-radius: 20px;
+    font-family: Comfortaa;
+}
+h1.title{
+    color: #FFF;
+    text-align: center;
+    font-family: Comfortaa;
+    margin-block-start: 30px;
+    margin-block-end: 30px;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 60px;
+}
+.main-container{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    font-family: 'Inter', sans-serif;
+}
+.main-theme{
+    background: #d9d9d9;
+    margin-right:  20px;
+    border-radius: 20px;
+    text-align: center;
+    width: 30%;
+    height: 310px;
+    font-family: 'Inter', sans-serif;
+}
+.main-target{
+    background: #f0e4ff;
+    border-radius: 20px;
+    width: 70%;
+    height: 310px;
+}
+#th1{
+    margin: auto;
+    font-size: 40px;
+}
+#th2{
+    display: flex;
+    font-size: 24px;
+    text-align: center;
+    /* margin: 30px; */
+    justify-content: start;
+}
+
+#target{
+    text-align: center;
+    margin: auto;
+    font-size: 30px;
+    margin-top: 25px;
+}
+.list{
+    display: flex;
+    flex-direction: column;
+    height: 70%;
+    padding-left: 50px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: start;
+    position: relative;
+    font-family: 'Inter', sans-serif;
+}
+.start-container{
+    display: flex;
+    background: #E8FFCA;
+    border-radius: 20px;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    font-family: 'Inter', sans-serif;
+}
+#start-h1{
+    position: relative;
+    margin: 15px 30px;
+    font-size: 40px;
+    font-family: Comfortaa;
+}
+#start-text{
+    display: flex;
+    position: relative;
+    text-align: justify;
+    margin: 10px 30px;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+}
+.image{
+    margin: 0 auto;
+    width: 70%;
+    height: 70%;
+    border-radius: 20px;
+    border-color: black;
+    border-style: solid;
+    border-width: 1.5px;
+}
+.note{
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+}
+
+footer{
+    display: flex;
+    background-color: #B57DFD;
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    border-radius: 20px;
+    color: #fff;
+}
+.foot{
+    font-size: 25px;
+    font-family: Comfortaa;
+}
+.gov-container{
+    display: flex;
+    flex-direction: column;
+    background: #E2E7FC;
+    border-radius: 20px;
+}
+.gov-text, .gov-text2, .gov-list, .gov-head, .gov-block{
+    display: flex;
+    margin: 20px 30px;
+    flex-direction: column;
+}
+.gov-block{
+    background: #AEAEBC;
+    font-size: 25px;
+    border-radius: 20px;
+    text-align: center;
+    height: 299px;
+    width: 277px;
+    padding: 20px;
+}
+.gov-text{
+    display: flex;
+    font-size: 22px;
+}
+.gov-text2{
+    margin: 0 auto;
+    font-family: Inter sans-serif;
+    width: 100%;
+    height: 100%;
+    font-size: 20px;
+}
+.gov-list-container{
+    display: flex;
+    flex-direction: row;
+}
+.gov-list{
+    width: 90%;
+    height: 299px;
+    font-size: 25px;
+    padding: 0px 20px;background: #ccd1e4;
+    font-family: Inter sans-serif;
+}
+.gov-head{
+    font-size: 40px;
+    font-family: Comfortaa;
+}
